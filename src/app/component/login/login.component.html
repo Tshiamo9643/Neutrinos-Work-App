@@ -1,0 +1,35 @@
+<div class="mainDiv bgImg flex center-center full-width full-height">
+    <div class="flex column center-center full-width">
+      <div>
+        <img
+          src="https://goneutrinos.com/wp-content/uploads/2023/04/neutrinos-logo.png"
+          alt="Neutrinos Logo"
+        />
+      </div>
+      <div class="divColor">
+        <h1 class="text-center txt-Color"><b>LOGIN</b></h1>
+        <form>
+         
+          <mat-form-field class="full-width">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput placeholder="Ex. pat@example.com" />
+            <mat-error> Please enter a valid email address </mat-error>
+            <mat-error> Email is <strong>required</strong> </mat-error>
+          </mat-form-field>
+          
+          <mat-form-field class="full-width">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Enter a password" />
+              <mat-error> Please enter a valid password </mat-error>
+              <mat-error> Password is <strong>required</strong> </mat-error>
+          </mat-form-field>
+          <div>
+            <mat-checkbox class="example-margin"><b>Remember me!</b></mat-checkbox>
+          </div>
+          <button mat-raised-button class="full-width">
+            Sign In
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>

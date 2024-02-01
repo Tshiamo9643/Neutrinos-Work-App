@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+.bgImg{
+    background-image: url(https://previews.123rf.com/images/peshkova/peshkova1712/peshkova171200358/91524099-creative-digital-business-interface-on-city-background-future-and-innovation-concept-double-exposure.jpg);
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+.column{
+    flex-direction: column;
+}
+.center-center{
+    align-items: center;
+    justify-content: center;
+}
+.full-width{
+    width: 100%;
+}
+.full-height{
+    height: 100%;
+}
+.pad-20{
+    padding: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.divColor{
+    background-color: rgb(137, 143, 148);
+    opacity: 90%;
+}
+.txt-Color{
+    color: black;
+}
+
+//THE ADMIN STYLES
+.width-300px{
+    max-width: 300px;
+}
+.header img{
+    width: 200px;
+}
+.header{
+    flex: 1 1 auto;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
